@@ -223,37 +223,6 @@ body {
 .text-link:hover { border-bottom-color: var(--accent); }
 .text-link.big { font-size: 20px; }
 
-/* ---------- thumbnails ---------- */
-.thumb-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-  margin-top: 18px;
-}
-
-.thumb-grid figure {
-  background: var(--bg-soft);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.thumb-grid img {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-}
-
-.thumb-grid figcaption {
-  padding: 10px 14px;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--muted);
-  text-transform: capitalize;
-}
-
 /* ---------- skills ---------- */
 .skill-list {
   list-style: none;
@@ -304,6 +273,5 @@ footer {
 
   .hero { padding: 64px 20px 52px; }
   .section { padding: 48px 20px; }
-  .thumb-grid { grid-template-columns: 1fr; }
   .project { padding: 22px; }
 }
